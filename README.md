@@ -9,6 +9,9 @@ routine, multi Alarms user and Satellite approaching alert, power safe, DST, Tim
 This watch with use a Monochrome OLEDs based on SSD1306 drivers 128x64 size display using I2C 
 to communicate.
 
+The compiled code size is about 31kb, you need capable arduino device with at least 32kb of memory.
+All the Arduino Nano card will work well.
+
 NOTE: This software use the Adafruit SSD1606 and GFX dispay libraries to connect the oled display. 
 These libreries can be downloaded from Adafruit site.
 
