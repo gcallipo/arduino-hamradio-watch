@@ -14,11 +14,11 @@ All the Arduino Nano card will work well.
 
 Blocks schematic diagram to: https://sites.google.com/site/ik8yfw/home
 
-NOTE: This software use the Adafruit SSD1606 and GFX dispay libraries to connect the oled display. 
+NOTE: This software use the Adafruit SSD1306 and GFX dispay libraries to connect the oled display. 
 These libreries can be downloaded from Adafruit site.
 
-TO build the software you must download the SSD1606 and GFX libray from adafruit:
+TO build the software you must download the SSD1306 and GFX libray from adafruit:
 
-SSD1606: https://github.com/adafruit/Adafruit_SSD1306 GFX: https://github.com/adafruit/Adafruit-GFX-Library
+SSD1306: https://github.com/adafruit/Adafruit_SSD1306 GFX: https://github.com/adafruit/Adafruit-GFX-Library
 
 Author: GIUSEPPE CALLIPO - ik8yfw@libero.it License: The software is released under Creative Commons (CC) license.
