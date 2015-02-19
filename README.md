@@ -21,4 +21,4 @@ TO build the software you must download the SSD1306 and GFX libray from adafruit
 
 SSD1306: https://github.com/adafruit/Adafruit_SSD1306 GFX: https://github.com/adafruit/Adafruit-GFX-Library
 
-Author: GIUSEPPE CALLIPO - ik8yfw@libero.it License: The software is released under Creative Commons (CC) license.
+Author: GIUSEPPE CALLIPO - ik8yfw[AT]libero.it License: The software is released under Creative Commons (CC) license.
