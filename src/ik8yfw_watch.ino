@@ -810,31 +810,33 @@ void display_setup(){
   display.setCursor(0,0);
   display.setTextSize(1);
   display.setTextColor(WHITE);
-  display.println("     SETUP SCREEN");
-  display.println(""); 
+  display.println("     SETUP SCREEN");CR_LF(1);
+  display.println("");CR_LF(1);
 
   display.print("SATELLITE: ");
   if (SET_STATUS == 1) display.print(">");
-  display.println(PREF_SAT);
+  display.println(PREF_SAT);CR_LF(1);
   int iY = getCursorY();
   display.setCursor(0,iY +3);
   
   display.print("DST: ");
   if (SET_STATUS == 2) display.print(">");
   if (bDST == 1)  display.println(F("ON")); else display.println(F("OFF"));
+CR_LF(1);
   iY = getCursorY();
   display.setCursor(0,iY +3);
   
   display.print("TIMEZONE: ");
   if (SET_STATUS == 3) display.print(">");
   display.println(tz);
+CR_LF(1);
   iY = getCursorY();
   display.setCursor(0,iY +3);
   
   display.print("POWER SAFE: ");
   if (SET_STATUS == 4) display.print(">");
   if (bPS == true)  display.println(F("ON")); else display.println(F("OFF"));
-  
+  CR_LF(1);
   display.display();
 }
 
