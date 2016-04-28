@@ -798,45 +798,43 @@ void display_alarm(){
 }
 
 /********************************************************************************************************/
-//* Function:  ALARM DISPLAY
+//* Function:  SETUP DISPLAY
 //*
-//* Description: Display the alarm infos
+//* Description: Display the setup infos
 /********************************************************************************************************/
 void display_setup(){
- 
+ int iY =0;
   display.clearDisplay();
 
   // First Alarm
-  display.setCursor(0,0);
+  display.setCursor(0,0); clearCursorY();
   display.setTextSize(1);
   display.setTextColor(WHITE);
   display.println("     SETUP SCREEN");CR_LF(1);
-  display.println("");CR_LF(1);
+  display.println(""); CR_LF(1);
 
   display.print("SATELLITE: ");
   if (SET_STATUS == 1) display.print(">");
-  display.println(PREF_SAT);CR_LF(1);
-  int iY = getCursorY();
-  display.setCursor(0,iY +3);
+  display.println(PREF_SAT);
+  iY = getCursorY();
+  display.setCursor(0,iY +10);
   
   display.print("DST: ");
   if (SET_STATUS == 2) display.print(">");
   if (bDST == 1)  display.println(F("ON")); else display.println(F("OFF"));
-CR_LF(1);
-  iY = getCursorY();
-  display.setCursor(0,iY +3);
+  CR_LF(1);iY = getCursorY();
+  display.setCursor(0,iY +12);
   
   display.print("TIMEZONE: ");
   if (SET_STATUS == 3) display.print(">");
   display.println(tz);
-CR_LF(1);
-  iY = getCursorY();
-  display.setCursor(0,iY +3);
+  CR_LF(1);iY = getCursorY();
+  display.setCursor(0,iY +14);
   
   display.print("POWER SAFE: ");
   if (SET_STATUS == 4) display.print(">");
   if (bPS == true)  display.println(F("ON")); else display.println(F("OFF"));
-  CR_LF(1);
+  
   display.display();
 }
 
