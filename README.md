@@ -12,7 +12,7 @@ to communicate.
 The compiled code size is about 31kb, you need capable arduino device with at least 32kb of memory.
 All the Arduino Nano card will work well.
 
-Blocks schematic diagram to: https://sites.google.com/site/ik8yfw/home
+Blocks schematic diagram to: https://sites.google.com/site/ik8yfw/projects-experiments
 
 NOTE: This software use the Adafruit SSD1306 and GFX dispay libraries to connect the oled display. 
 These libreries can be downloaded from Adafruit site.
