@@ -29,5 +29,6 @@ SSD1306: https://github.com/adafruit/Adafruit_SSD1306 GFX: https://github.com/ad
                        "Sketch uses 29292 bytes (95%) of program storage space. Maximum is 30720 bytes.
                         Global variables use 1711 bytes (83%) of dynamic memory, leaving 337 bytes for local variables. Maximum is 2048 bytes. "
 
+                        The folder "build" contains the pre compiled file in case of you want to upload directly using AVRDude program.
 
 Author: GIUSEPPE CALLIPO - ik8yfw[AT]libero.it License: The software is released under Creative Commons (CC) license.
